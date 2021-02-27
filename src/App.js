@@ -11,13 +11,15 @@ import LivenessExpr from './components/LivenessExpr';
 import ImageCapture from './components/ImageCapture';
 import DragDrop from './components/DragDrop';
 import FbLogin from './components/FbLogin';
+import KeysTransform from './components/KeysTransform';
 
 
 function App() {
   return (
     <div className="App">
       <br></br>
-      <FbLogin></FbLogin>
+      <KeysTransform></KeysTransform>
+      {/* <FbLogin></FbLogin> */}
       {/* <DragDrop></DragDrop> */}
       {/* <ImageCapture/> */}
       {/* <LivenessExpr></LivenessExpr> */}
