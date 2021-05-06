@@ -13,13 +13,15 @@ import DragDrop from './components/DragDrop';
 import FbLogin from './components/FbLogin';
 import KeysTransform from './components/KeysTransform';
 import ValidationHooks from './components/ValidationHooks';
+import ValidationLibrary from './components/ValidationLibrary';
 
 
 function App() {
   return (
     <div className="App">
       <br></br>
-      <ValidationHooks></ValidationHooks>
+      <ValidationLibrary></ValidationLibrary>
+      {/* <ValidationHooks></ValidationHooks> */}
       {/* <KeysTransform></KeysTransform> */}
       {/* <FbLogin></FbLogin> */}
       {/* <DragDrop></DragDrop> */}
