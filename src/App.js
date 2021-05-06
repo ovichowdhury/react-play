@@ -12,13 +12,15 @@ import ImageCapture from './components/ImageCapture';
 import DragDrop from './components/DragDrop';
 import FbLogin from './components/FbLogin';
 import KeysTransform from './components/KeysTransform';
+import ValidationHooks from './components/ValidationHooks';
 
 
 function App() {
   return (
     <div className="App">
       <br></br>
-      <KeysTransform></KeysTransform>
+      <ValidationHooks></ValidationHooks>
+      {/* <KeysTransform></KeysTransform> */}
       {/* <FbLogin></FbLogin> */}
       {/* <DragDrop></DragDrop> */}
       {/* <ImageCapture/> */}
