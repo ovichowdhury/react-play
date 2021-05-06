@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 
-function maxLength(value, options) {
+function maxLength(value, options = {}) {
     const { limit = 10, message = `Length should be less than or equals to ${limit}` } = options;
 
     let occured = false;
@@ -15,7 +15,7 @@ function maxLength(value, options) {
     return { occured, msg }
 }
 
-function isCapital(value, options) {
+function isCapital(value, options = {}) {
     const { message = `Capital letter found` } = options;
 
     let occured = false;
