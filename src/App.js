@@ -14,13 +14,15 @@ import FbLogin from './components/FbLogin';
 import KeysTransform from './components/KeysTransform';
 import ValidationHooks from './components/ValidationHooks';
 import ValidationLibrary from './components/ValidationLibrary';
+import GeolocationApi from './components/GeolocationApi';
 
 
 function App() {
   return (
     <div className="App">
       <br></br>
-      <ValidationLibrary></ValidationLibrary>
+      <GeolocationApi></GeolocationApi>
+      {/* <ValidationLibrary></ValidationLibrary> */}
       {/* <ValidationHooks></ValidationHooks> */}
       {/* <KeysTransform></KeysTransform> */}
       {/* <FbLogin></FbLogin> */}
