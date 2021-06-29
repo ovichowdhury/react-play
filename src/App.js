@@ -15,13 +15,15 @@ import KeysTransform from './components/KeysTransform';
 import ValidationHooks from './components/ValidationHooks';
 import ValidationLibrary from './components/ValidationLibrary';
 import GeolocationApi from './components/GeolocationApi';
+import SWUI from './components/CustomSwaggerUI';
 
 
 function App() {
   return (
     <div className="App">
       <br></br>
-      <GeolocationApi></GeolocationApi>
+      <SWUI></SWUI>
+      {/* <GeolocationApi></GeolocationApi> */}
       {/* <ValidationLibrary></ValidationLibrary> */}
       {/* <ValidationHooks></ValidationHooks> */}
       {/* <KeysTransform></KeysTransform> */}
